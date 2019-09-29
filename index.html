@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+  <title>People of Github</title>
+</head>
+
+<body>
+  <!-- Navbar/Header -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+    <a class="navbar-brand" href="#">Github People</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+  <!-- ================================================== -->
+  <!-- Featured Users -->
+
+  <div class="container marketing index-container">
+    <div class="row">
+      <div class="col-12">
+        <div class="input-group mb-3">
+          <input type="text" id="searchForm" class="form-control" placeholder="Github username"
+            aria-label="Github username" aria-describedby="button-addon2">
+          <div class="input-group-append">
+            <button class="btn bg-info" type="button" id="searchbutton">Search</button>
+          </div><!-- input-group-append -->
+        </div><!-- input-group mb-3 -->
+      </div><!-- col-12 -->
+    </div>
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-12">
+        <h2 class="bg-info featured">Featured User's</h2>
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image
+              cap</text>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-name" id="card1">User Name</h5>
+            <p class="card-text" id="cardtext1">Some quick example text to build on the card title and make up the bulk
+              of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image
+              cap</text>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-name" id="card2">User Name</h5>
+            <p class="card-text" id="cardtext2">Some quick example text to build on the card title and make up the bulk
+              of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image
+              cap</text>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-name" id="card3">User Name</h5>
+            <p class="card-text" id="cardtext3">Some quick example text to build on the card title and make up the bulk
+              of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+    <!-- Graph Dashboard -->
+
+    <hr class="featurette-divider">
+
+    <div class="row">
+      <div class="col-md-12" id="graph-dashboard">
+        <img src="./IESD.png" alt="Placeholder">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <!-- Repos -->
+    <div class="row">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Repo 1</h2>
+        <!-- Insert name of Repo 1 -->
+        <h3 id="first-repo-name">
+          First Repo
+        </h3>
+        <!-- Insert top language -->
+        <h4 id="first-repo-main-lang"> Main Lang
+        </h4>
+        <!-- Insert list of technologies used -->
+        <ol id="first-repo-tech">
+          <li>Tech Item</li>
+        </ol>
+        <!-- Insert Activity Stream -->
+        <p class="lead" id="first-repo-stream">
+          Activity Stream
+        </p>
+      </div> <!-- End col-md-7 order-md-2 -->
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+          height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+          role="img" aria-label="Placeholder: 500x500">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+        </svg>
+      </div> <!-- End col-md-5 order-md-1 -->
+    </div> <!-- End row -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Repo 2</h2>
+        <!-- Insert name of Repo 2 -->
+        <h3 id="second-repo-name">
+          Second Repo
+        </h3>
+        <!-- Insert top language -->
+        <h4 id="second-repo-main-lang"> Main Lang
+        </h4>
+        <!-- Insert list of technologies used -->
+        <ol id="second-repo-tech">
+          <li>Tech Item</li>
+        </ol>
+        <!-- Insert Activity Stream -->
+        <p class="lead" id="second-repo-stream">
+          Activity Stream
+        </p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+          height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+          role="img" aria-label="Placeholder: 500x500">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+        </svg>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Repo 3</h2>
+        <!-- Insert name of Repo 3 -->
+        <h3 id="first-repo-name">
+          Third Repo
+        </h3>
+        <!-- Insert top language -->
+        <h4 id="third-repo-main-lang"> Main Lang
+        </h4>
+        <!-- Insert list of technologies used -->
+        <ol id="third-repo-tech">
+          <li>Tech Item</li>
+        </ol>
+        <!-- Insert Activity Stream -->
+        <p class="lead" id="third-repo-stream">
+          Activity Stream
+        </p>
+      </div> <!-- End col-md-7 order-md-2 -->
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+          height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+          role="img" aria-label="Placeholder: 500x500">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+        </svg>
+      </div> <!-- End col-md-5 order-md-1 -->
+    </div> <!-- End row -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Repo 4</h2>
+        <!-- Insert name of Repo 4 -->
+        <h3 id="fourth-repo-name">
+          Fourth Repo
+        </h3>
+        <!-- Insert top language -->
+        <h4 id="fourth-repo-main-lang"> Main Lang
+        </h4>
+        <!-- Insert list of technologies used -->
+        <ol id="fourth-repo-tech">
+          <li>Tech Item</li>
+        </ol>
+        <!-- Insert Activity Stream -->
+        <p class="lead" id="fourth-repo-stream">
+          Activity Stream
+        </p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+          height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+          role="img" aria-label="Placeholder: 500x500">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+        </svg>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Repo 5</h2>
+        <!-- Insert name of Repo 5 -->
+        <h3 id="fifth-repo-name">
+          Fifth Repo
+        </h3>
+        <!-- Insert top language -->
+        <h4 id="fifth-repo-main-lang"> Main Lang
+        </h4>
+        <!-- Insert list of technologies used -->
+        <ol id="fifth-repo-tech">
+          <li>Tech Item</li>
+        </ol>
+        <!-- Insert Activity Stream -->
+        <p class="lead" id="fifth-repo-stream">
+          Activity Stream
+        </p>
+      </div> <!-- End col-md-7 order-md-2 -->
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+          height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+          role="img" aria-label="Placeholder: 500x500">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+        </svg>
+      </div> <!-- End col-md-5 order-md-1 -->
+    </div> <!-- End row -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Repo 6</h2>
+        <!-- Insert name of Repo 2 -->
+        <h3 id="sixth-repo-name">
+          Sixth Repo
+        </h3>
+        <!-- Insert top language -->
+        <h4 id="sixth-repo-main-lang"> Main Lang
+        </h4>
+        <!-- Insert list of technologies used -->
+        <ol id="sixth-repo-tech">
+          <li>Tech Item</li>
+        </ol>
+        <!-- Insert Activity Stream -->
+        <p class="lead" id="sixth-repo-stream">
+          Activity Stream
+        </p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+          height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+          role="img" aria-label="Placeholder: 500x500">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+        </svg>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+
+
+  <footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+  </footer>
+</body>
+
+</html>
