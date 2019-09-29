@@ -13,7 +13,7 @@ app.use('/assets', express.static(path.join(__dirname, './public/assets')));
 
 //  Octonode for retrieving GitHub info
 var github = require('octonode');
-var client = github.client('d936733e408e75501abdae0002c47ec7528bf6ad');
+var client = github.client(process.env.GITHUB_TOKEN);
 
 // Then we instantiate a client with or without a token (as show in a later section)
 
