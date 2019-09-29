@@ -26,16 +26,35 @@ const GitHubSchema = new mongoose.Schema({
       required: true
     },
 
-    languages: [{
+    url: {
       type: String,
       required: true
-    }],
+    },
 
-    events: [{
+    repoId: {
       type: String,
       required: true
+    },
+
+    owner: {
+      type: String,
+      required: true
+    },
+
+    languages: [{
+      name: {
+        type: String
+      },
+
+      count: {
+        type: String
+      }
     }]
   }],
+
+  orgs: [{
+    type: String
+  }]
 });
 
 module.exports = mongoose.model("GitHub", GitHubSchema);

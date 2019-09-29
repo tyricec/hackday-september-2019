@@ -23,13 +23,13 @@ var client = github.client(process.env.GITHUB_TOKEN);
 });
 */
 
-client.get('/users/SJT1988/repos', {}, function (err, status, body, headers) {
-  console.log(body);
-});
-client.get('/users/SJT1988/orgs', {}, function (err, status, body) {
+// client.get('/users/SJT1988/repos', {}, function (err, status, body, headers) {
+//   console.log(body);
+// });
+// client.get('/users/SJT1988/orgs', {}, function (err, status, body) {
 
-  console.log(body);
-});
+//   console.log(body);
+// });
 /*client.get('/:owner/:repo/languages', {}, function (err, status, body) {
   console.log(body);
 });
