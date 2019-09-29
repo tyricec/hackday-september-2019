@@ -1,0 +1,10 @@
+.index-container{
+  padding-top: 200px;
+}
+.featured{
+  color: aliceblue;
+}
+
+p.lead {
+  overflow: auto;
+}
