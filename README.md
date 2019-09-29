@@ -1,58 +1,3 @@
-<p align="center">
-  <img 
-    alt="Inland Empire Software Development Logo" 
-    src="https://user-images.githubusercontent.com/36907562/55706662-9ae24f80-5996-11e9-9557-3a8440c5926a.png" 
-    width="100px" >
-</p>
-<h1 align="center"> 
-  Hack Day
-</h1>
-<p align="center">
-  <a href="https://www.facebook.com/iesdinc/">
-    <img 
-      alt="Facebook logo" 
-      src="https://en.facebookbrand.com/wp-content/uploads/2016/05/flogo_rgb_hex-brc-site-250.png" 
-      width="35px">
-  </a>
-  <a href="https://join.slack.com/t/ie-sd/shared_invite/enQtNTY1NDU3MTg4NDE5LWZiNjViZmQ0ODhmN2Q0NTg1NWQwZTcyODEyYmM4ZGYxNjZkM2UxYzU5OTZkMDY4YzljYjIwZGY4YmEyNzRlNjA">
-    <img 
-      alt="Slack logo"
-      src="https://cdn-images-1.medium.com/max/1600/1*rncLjp_nxRi08Y8AKZCJVA.png"
-      width="40px">
-  </a>
-</p>
-
-<p align="center">
-  Welcome to the official repository for the IESD Hack Day event.
-</p>
-
-
-## **Getting Started**
-
-This repository has the resources to get you prepared for this month's Hack Day event. 
-
-**No starter code provided**
-
-If you have any questions, please ask on our [Slack](https://ie-sd.slack.com). We welcome everyone to our Slack, so don't be afraid to join! Have fun coding!
-
-**<a href="https://join.slack.com/t/ie-sd/shared_invite/enQtNTY1NDU3MTg4NDE5LWZiNjViZmQ0ODhmN2Q0NTg1NWQwZTcyODEyYmM4ZGYxNjZkM2UxYzU5OTZkMDY4YzljYjIwZGY4YmEyNzRlNjA">Join our Slack!</a>**
-
-## **Concepts to Review**
-
-This section provides you some concepts to review that will make your time working on the Hack Day project much easier.
-- Working with API's 
-- Data Visualization
-- UI Design 
-- GitHub Collaboration 
-- Database Integration (data permanence & data retrieval)
-
-## **Technology** 
-
-This Hack Day challenge is language agnostic. We will not force you to use a specific stack. Your tech stack is dependent on the composition of your team.
-
-## **Challenge**
-For this Hack Day. The problem we will be attacking is the following...
- 
 **Challenge:** We need a user interface that displays the information pulled from a user account on GitHub.com.
 
 **Additional information:** We want the ability to pull data from a user account on GitHub and show that collected data in an easy to read format. We don't want to sift through data, instead we want to visually digest the information after the data has been processed for the end user. The end user should be able to see who's profile this is, extrapolate information such as favorite languages, most used languages, how often this person contributes to projects, etc.
@@ -60,10 +5,7 @@ For this Hack Day. The problem we will be attacking is the following...
 ## **Tasks**
 
 **Minimum Requirements:** (5 points each)
-
-These are easy to get points.
-
-**Design and build** a user interface that revolves around the user information. Make sure to use graphs, charts and other  visualization tools where necessary. All design decisions are left up to you and your team. 
+Design and build a user interface that revolves around the user information. Make sure to use graphs, charts and other  visualization tools where necessary. All design decisions are left up to you and your team. 
 
 - Must have at least 1 chart
 - Must have at least 1 graph
@@ -126,29 +68,6 @@ Based on the point system under tasks, you will also be on the hook for an addit
 
 Simplicity will be favored over complex/clever code. Commenting code will also be highly favored. 
 
-
-## **Tools**
-
-You can use any tools, below are a list of tools that may prove helpful while designing and building the user interface. 
-
-Layout - CSS Libraries 
-- [Bootstrap](https://getbootstrap.com/)
-- [UIKit](https://getuikit.com/)
-
-Design Tools 
-- [Color Palettes](https://colorhunt.co/) 
-- [Color Scheme Generator](https://coolors.co/)
-
-Visualization Libraries
-- [D3](https://d3js.org/) 
-- [Chart.js](https://www.chartjs.org/)
-- [Moose](http://moosetechnology.org/)
-
-
-## Submission
-
-Once you are ready to submit, please submit a link for your repository in the Slack channel #general - so everyone can take a look. Direct message @lloan with the link as well. 
-
 **Presenting** 
 
 - You will be given 3 minutes to present
@@ -158,3 +77,12 @@ Once you are ready to submit, please submit a link for your repository in the Sl
 - Walk the audience through what you were able to complete
 - Walk the audience through your design
 - State what you think your team did well 
+
+
+**Team Members**
+-Tyrice Clark - Backend/API Calls
+-Stephanie Davis - Database and Data Visualization
+-Rebecca Hom - Backend/API Calls
+-James Stacy - Front End
+-Spencer Trumbore - Backend/API Calls
+-Luis Velazquez - Front End
